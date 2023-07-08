@@ -1,0 +1,18 @@
+.one{
+    width: 30%;
+    background: black;
+    height: 30%;
+    border-radius: 50%;
+}.two{
+    width: 10%;
+    background: red;
+    height: 10%;
+}.there{
+    width: 10%;
+    background: black;
+    height: 10%;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}

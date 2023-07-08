@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!--<div class="container">-->
+<!--    <div class="one"></div>-->
+<!--    <div class="two"></div>-->
+<!--    <div class="there"></div>-->
+<!--</div>-->
+<center>
+    <div>
+        <h1 class="title">Lorem ipsum dolor sit amet.</h1>
+        <div id="text"></div>
+      <div class="group">
+          <button class="btn2">click me</button>
+          <button class="btn1">none</button>
+          <button class="deg">deg</button>
+      </div>
+    </div>
+</center>
+<style>
+    .group{
+        margin-top: 400px;
+    }
+    .deg{
+        padding:  5px 20px;
+        border-radius:10px ;
+        background: black;
+        color: aliceblue;
+        transition: .4s;
+    }
+    .deg:hover{
+        transform: scale(1.1);
+    }
+    .btn1{
+        padding:  5px 20px;
+        border-radius:10px ;
+        background: black;
+        color: aliceblue;
+        transition: .4s;
+
+    }
+    .btn1:hover{
+        transform: scale(1.1);
+    }
+    .btn2{
+        padding:  5px 20px;
+        border-radius:10px ;
+        background: black;
+        color: white;
+        transition: .4s;
+    }
+    .btn2:hover{
+        transform: scale(1.1);
+    }
+    body{
+        margin-top: 300px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #text{
+        width: 300px;
+        height: 10px;
+        background: yellow;
+    }
+</style>
+
+<script src="domScript.js"></script>
+</body>
+</html>
